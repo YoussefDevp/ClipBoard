@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 1.6;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+    transition: .3s ease-in;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.primery-heading {
+    color: hsl(210, 10%, 33%);
+    line-height: 2;
+}
+
+.secandry-heading {
+    color: hsl(210, 10%, 33%);
+    line-height: 3;
+}
+
+.third-heading {
+    color: hsl(210, 10%, 33%);
+    line-height: 2;
+    font-size: 110%;
+}
+.paragraph {
+    color: hsl(201, 11%, 66%);
+    font-size: 90%;
+}
+
+.btns {
+    text-align: center;
+    margin:0 auto;
+}
+
+.btn {
+    background: hsl(233, 100%, 69%);
+    padding: .8rem 1.7rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 90%;
+    color: #ffffffe0;
+}
+
+.btn-blue {
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: solid 2.5px hsl(233, 100%, 59%);
+    margin-right: 1rem;
+    box-shadow: -2px 5px 19px 0px rgba(97,115,255,0.75);
+}
+
+.btn-green {
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: solid 2.5px hsl(171, 67%, 36%);
+    box-shadow: -2px 5px 19px 0px rgba(38,186,164,0.75);
+}
+
+.device-img {
+    text-align: center;
+    img {
+        width: 70%;
+    }
+}
+
+#header {
+    margin-bottom: 5.5rem;
+    width: 100%;
+    height: 100%;
+    background: url('/images/bg-header-desktop.png') center center/cover;
+    text-align: center;
+    img {
+        padding: 3rem 0;
+    }
+
+    p {
+        width: 600px;
+        margin:auto;
+        margin-bottom: 2.5rem;
+    }
+
+    a{
+        margin-bottom: 4rem;
+    }   
+}
+
+.section-content {
+    text-align: center;
+    margin: 4rem auto;
+    p {
+        width: 600px;
+        margin: auto;
+    }
+
+}
+
+.section-features {
+    display: flex;
+    img {
+        width: 50%;
+        position: relative;
+        left: -25px;
+    }
+    .features {
+        width: 400px;
+        margin:  auto;
+        p {
+            color:hsl(201, 11%, 66%);
+            font-size: 75%;
+            width: 75%;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.section-card {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    .card {
+        width: 25%;
+        margin-right: 1.5rem;
+        p {
+            color:hsl(201, 11%, 66%);
+            font-size: 75%;
+        }
+        img {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.company-logos {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 2rem;
+    justify-content: center;
+    align-items: center;
+    img {
+        margin: 2rem;
+        margin-right: 3rem;
+    }
+}
+#footer { 
+    margin: 10rem 0 0 0 ;
+    background: hsla(202, 11%, 66%, 0.144);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    overflow: hidden;
+    .footer-logo > img {
+        width: 60px;
+        margin-right: 1rem;
+    }
+    ul {
+        list-style: none;
+        a {
+            text-decoration: none;
+            color:hsla(212, 10%, 33%, 0.863);
+            font-weight: 600;
+        }
+    }
+} 
+
+.social-links {
+    justify-self: flex-start;
+    a > img {
+        margin-right: 1rem;
+        width: 25px;
+    }
+}
+
+#credit {
+    text-align: center;
+}
+

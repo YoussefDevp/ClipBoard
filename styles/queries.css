@@ -1,0 +1,50 @@
+@media screen and (max-width: 706px) {
+  #header h1 {
+    margin: auto;
+    width: 80%;
+  }
+  #header p {
+    width: 350px;
+  }
+  .section-content h2 {
+    margin: auto;
+    width: 80%;
+  }
+  .section-content p {
+    width: 350px;
+  }
+  .section-features {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .section-features img {
+    width: 80%;
+  }
+  .section-features .features {
+    width: 80%;
+    margin: 3rem 0;
+  }
+  .section-features .features p {
+    margin: auto;
+  }
+  .section-card {
+    flex-direction: column;
+    width: 100%;
+  }
+  .section-card .card {
+    width: 100%;
+  }
+  .section-card .card p {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  #header .btn, .btn {
+    display: block;
+    width: 70%;
+    margin: 1.5rem auto;
+  }
+}

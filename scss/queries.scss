@@ -1,0 +1,64 @@
+// 706px for tablets.
+@media screen and (max-width: 706px) {
+    #header {
+        h1 {
+            margin: auto;
+            width: 80%;
+        }
+        p {
+            width: 350px;
+        }
+    }
+
+    .section-content {
+        h2 {
+            margin: auto;
+            width: 80%;
+        }
+        p {
+            width: 350px;
+        }
+    }
+
+    .section-features {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        img {
+            width: 80%;
+        }
+        .features {
+            width: 80%;
+            margin: 3rem 0;
+            p {
+                margin: auto;
+            }
+        }
+    }
+
+    .section-card {
+        flex-direction: column;
+        width: 100%;
+        .card {
+            width: 100%;
+            p {
+                width: 300px;
+                margin: auto;
+            }
+        }
+    }
+  }
+
+  // 576 for phones
+  @media screen and (max-width: 706px) {
+    #header .btn, .btn {
+        display: block;
+        width: 70%;
+        margin: 1.5rem auto;
+    }
+  }
+
+//   576px for portrait phones.
+// 768px for tablets.
+// 992px for laptops.
+// 1200px for large devices.
