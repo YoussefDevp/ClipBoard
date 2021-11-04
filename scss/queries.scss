@@ -26,6 +26,7 @@
         align-items: center;
         img {
             width: 80%;
+            left: 0;
         }
         .features {
             width: 80%;
@@ -50,12 +51,23 @@
   }
 
   // 576 for phones
-  @media screen and (max-width: 706px) {
+  @media screen and (max-width: 576px) {
     #header .btn, .btn {
         display: block;
         width: 70%;
         margin: 1.5rem auto;
     }
+    .primery-heading, .secandry-heading, .third-heading {
+        line-height: 1.8;
+    }
+
+    #footer {
+        flex-direction: column;
+        .social-links {
+            align-self: flex-end;
+        }
+    }
+    
   }
 
 //   576px for portrait phones.

@@ -201,4 +201,20 @@ body {
 
 #credit {
   text-align: center;
+  background-color: #9fabb2;
+}
+
+#credit p {
+  color: white;
+}
+
+#credit p a {
+  text-decoration: none;
+  color: #2e46ff;
+  font-weight: 600;
+}
+
+#credit p a:hover {
+  text-decoration: underline;
+  transition: .3s ease-in;
 }

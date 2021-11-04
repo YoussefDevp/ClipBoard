@@ -187,5 +187,18 @@ body {
 
 #credit {
     text-align: center;
+    background-color: hsl(202, 11%, 66%);
+    p {
+        color:hsl(0, 0%, 100%);
+        a {
+            text-decoration: none;
+            color: hsl(233, 100%, 59%);
+            font-weight: 600;
+            &:hover {
+                text-decoration: underline;
+                transition: .3s ease-in;
+            }
+        }
+    }
 }
 
